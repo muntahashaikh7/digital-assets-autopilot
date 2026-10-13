@@ -1,22 +1,22 @@
 # Listing Package — 2026-10-13
 
-**Product:** BFCM BLACKOUT — 25 Black Friday Sale Templates
+**Product:** CINEMATIC SFX — 60 Royalty-Free Sound Effects for Reels & Shorts
 **Price:** $12 USD
-**Primary keyword:** black friday templates
+**Primary keyword:** sound effects pack
 
 ## SEO title
-Black Friday Templates — 25 Black Friday Sale Templates | Instant Download
+Sound Effects Pack — 60 Royalty-Free Sound Effects for Reels & Shorts | Instant Download
 
 ## Description
-25 Black Friday Sale Templates — a done-for-you digital pack for creators and small businesses.
+60 Royalty-Free Sound Effects for Reels & Shorts — a done-for-you digital pack for creators and small businesses.
 
 WHAT YOU GET
-- 25 Black Friday Sale Templates (PNG + editable SVG files)
+- 60 Royalty-Free Sound Effects for Reels & Shorts (PNG + editable SVG files)
 - Organized, ready-to-customize files — no design skills needed
 - Instant download after purchase
 
 WHO IT IS FOR
-- Content creators, coaches, and small business owners who want professional black friday templates without hiring a designer
+- Content creators, coaches, and small business owners who want professional sound effects pack without hiring a designer
 
 PLEASE NOTE
 - This is a DIGITAL product. No physical item will be shipped.
@@ -26,7 +26,7 @@ PLEASE NOTE
 Questions before you buy? Message us anytime — happy to help you pick the right pack.
 
 ## Tags
-black friday templates, bfcm templates, black friday sale, cyber monday sale, small business sale, sale templates, promo templates, flash sale graphics, instagram sale post, social media kit, holiday marketing, bfcm sale kit, black friday 2026
+sound effects pack, royalty free sfx, reels sound effects, whoosh sound effect, riser sound effect, impact sound effect, transition sounds, capcut sfx, video sound design, sfx for youtubers, cinematic sound effects, pop click sounds, shutter sound effect
 
 ## Compliance (honest copy)
 - [x] No fake scarcity / invented urgency
@@ -35,4 +35,4 @@ black friday templates, bfcm templates, black friday sale, cyber monday sale, sm
 - [x] Real seasonal deadlines only
 
 ## Why this lane (autopilot)
-seasonal:black friday
+
