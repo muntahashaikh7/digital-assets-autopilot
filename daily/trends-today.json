@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-13",
+ "google_trends_us": [
+  "_err:HTTPError"
+ ],
+ "reddit_etsy_sellers": [
+  "_err:HTTPError"
+ ],
+ "seasonal_next_60d": [
+  {
+   "event": "Halloween",
+   "date": "2026-10-31",
+   "in_days": 18,
+   "keywords": [
+    "halloween",
+    "spooky",
+    "october"
+   ]
+  },
+  {
+   "event": "Diwali",
+   "date": "2026-11-08",
+   "in_days": 26,
+   "keywords": [
+    "diwali",
+    "festival of lights"
+   ]
+  },
+  {
+   "event": "Thanksgiving",
+   "date": "2026-11-26",
+   "in_days": 44,
+   "keywords": [
+    "thanksgiving",
+    "fall",
+    "autumn",
+    "friendsgiving"
+   ]
+  },
+  {
+   "event": "Black Friday / Cyber Monday",
+   "date": "2026-11-27",
+   "in_days": 45,
+   "keywords": [
+    "black friday",
+    "cyber monday",
+    "bfcm",
+    "sale"
+   ]
+  }
+ ],
+ "note": "Free sources only. _err entries mean that source failed and was skipped."
+}
