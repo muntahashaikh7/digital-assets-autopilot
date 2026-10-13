@@ -1,22 +1,22 @@
 # Listing Package — 2026-10-13
 
-**Product:** CINEMATIC SFX — 60 Royalty-Free Sound Effects for Reels & Shorts
-**Price:** $12 USD
-**Primary keyword:** sound effects pack
+**Product:** VIRAL HOOKS — 100 Reels & Shorts Hook Templates
+**Price:** $14 USD
+**Primary keyword:** reels hook templates
 
 ## SEO title
-Sound Effects Pack — 60 Royalty-Free Sound Effects for Reels & Shorts | Instant Download
+Reels Hook Templates — 100 Reels & Shorts Hook Templates | Instant Download
 
 ## Description
-60 Royalty-Free Sound Effects for Reels & Shorts — a done-for-you digital pack for creators and small businesses.
+100 Reels & Shorts Hook Templates — a done-for-you digital pack for creators and small businesses.
 
 WHAT YOU GET
-- 60 Royalty-Free Sound Effects for Reels & Shorts (PNG + editable SVG files)
+- 100 Reels & Shorts Hook Templates (PNG + editable SVG files)
 - Organized, ready-to-customize files — no design skills needed
 - Instant download after purchase
 
 WHO IT IS FOR
-- Content creators, coaches, and small business owners who want professional sound effects pack without hiring a designer
+- Content creators, coaches, and small business owners who want professional reels hook templates without hiring a designer
 
 PLEASE NOTE
 - This is a DIGITAL product. No physical item will be shipped.
@@ -26,7 +26,7 @@ PLEASE NOTE
 Questions before you buy? Message us anytime — happy to help you pick the right pack.
 
 ## Tags
-sound effects pack, royalty free sfx, reels sound effects, whoosh sound effect, riser sound effect, impact sound effect, transition sounds, capcut sfx, video sound design, sfx for youtubers, cinematic sound effects, pop click sounds, shutter sound effect
+reels hook templates, viral reel hooks, instagram hook templates, short form hook formulas, contrarian hooks, curiosity hooks, tiktok hook ideas, youtube shorts hooks, hook templates for reels, scroll stopping hooks, confession hooks, pov hooks, content hook pack
 
 ## Compliance (honest copy)
 - [x] No fake scarcity / invented urgency
@@ -35,4 +35,4 @@ sound effects pack, royalty free sfx, reels sound effects, whoosh sound effect, 
 - [x] Real seasonal deadlines only
 
 ## Why this lane (autopilot)
-
+fresh:10d
