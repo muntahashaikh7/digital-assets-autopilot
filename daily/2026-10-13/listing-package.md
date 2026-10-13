@@ -1,22 +1,22 @@
 # Listing Package — 2026-10-13
 
-**Product:** DIWALI DHAMAKA — 25 Diwali Promo Templates
+**Product:** BFCM BLACKOUT — 25 Black Friday Sale Templates
 **Price:** $12 USD
-**Primary keyword:** diwali templates
+**Primary keyword:** black friday templates
 
 ## SEO title
-Diwali Templates — 25 Diwali Promo Templates | Instant Download
+Black Friday Templates — 25 Black Friday Sale Templates | Instant Download
 
 ## Description
-25 Diwali Promo Templates — a done-for-you digital pack for creators and small businesses.
+25 Black Friday Sale Templates — a done-for-you digital pack for creators and small businesses.
 
 WHAT YOU GET
-- 25 Diwali Promo Templates (PNG + editable SVG files)
+- 25 Black Friday Sale Templates (PNG + editable SVG files)
 - Organized, ready-to-customize files — no design skills needed
 - Instant download after purchase
 
 WHO IT IS FOR
-- Content creators, coaches, and small business owners who want professional diwali templates without hiring a designer
+- Content creators, coaches, and small business owners who want professional black friday templates without hiring a designer
 
 PLEASE NOTE
 - This is a DIGITAL product. No physical item will be shipped.
@@ -26,7 +26,7 @@ PLEASE NOTE
 Questions before you buy? Message us anytime — happy to help you pick the right pack.
 
 ## Tags
-diwali templates, diwali social media templates, diwali canva templates, festival of lights templates, diwali sale templates, small business diwali, diwali marketing kit, diwali instagram templates, diwali story templates, dhanteras templates, bhai dooj, diwali 2026, deepavali templates
+black friday templates, bfcm templates, black friday sale, cyber monday sale, small business sale, sale templates, promo templates, flash sale graphics, instagram sale post, social media kit, holiday marketing, bfcm sale kit, black friday 2026
 
 ## Compliance (honest copy)
 - [x] No fake scarcity / invented urgency
@@ -35,4 +35,4 @@ diwali templates, diwali social media templates, diwali canva templates, festiva
 - [x] Real seasonal deadlines only
 
 ## Why this lane (autopilot)
-seasonal:diwali
+seasonal:black friday
