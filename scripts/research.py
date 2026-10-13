@@ -31,6 +31,23 @@ def reddit_signals():
     except Exception as e:
         return [f"_err:{type(e).__name__}"]
 
+def news_rss(query):
+    """Google News RSS — free, no key, usually reachable."""
+    try:
+        import urllib.parse
+        q = urllib.parse.quote(query)
+        raw = get(f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en")
+        titles = re.findall(r"<title>(.*?)</title>", raw)
+        # first <title> is the feed title itself
+        out = []
+        for t in titles[1:16]:
+            t = re.sub(r"<[^>]+>", "", t).strip().lower()
+            if t:
+                out.append(t)
+        return out
+    except Exception as e:
+        return [f"_err:{type(e).__name__}"]
+
 def seasonal(today):
     cal = json.load(open(os.path.join(ROOT, "config", "seasonal-calendar.json")))
     near = []
@@ -56,6 +73,9 @@ def main():
         "date": today.isoformat(),
         "google_trends_us": google_trends(),
         "reddit_etsy_sellers": reddit_signals(),
+        "news_digital_templates": news_rss("digital templates etsy sellers"),
+        "news_printable_planner": news_rss("printable planner 2027"),
+        "news_canva_creators": news_rss("canva templates creators sell"),
         "seasonal_next_60d": seasonal(today),
         "note": "Free sources only. _err entries mean that source failed and was skipped.",
     }

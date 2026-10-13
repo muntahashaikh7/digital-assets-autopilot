@@ -8,7 +8,16 @@ STATE = os.path.join(ROOT, "state", "state.json")
 OUT = os.path.join(ROOT, "daily")
 COOLDOWN_DAYS = 30
 
-LANE_RE = re.compile(r"^##\s+\d+\.\s+(.+?)\s+—\s+(.+?)\s+\(\$(\d+)\)", re.M)
+LANE_RE = re.compile(r"^##\s+\d+\.\s+(.+?)\s+—\s+(.+?)\s+\(\$(\d+)\)(?:\s+—\s+NEW\s+(\d{4}-\d{2}-\d{2}))?", re.M)
+
+def lane_category(name, desc):
+    t = (name + " " + desc).lower()
+    for cat, keys in {"planner": ["planner", "journal", "tracker"], "storybook": ["storybook", "story"],
+                      "prompt_pack": ["prompt"], "media_kit": ["media kit", "rate card"],
+                      "thumbnail": ["thumbnail"], "templates": ["template"]}.items():
+        if any(k in t for k in keys):
+            return cat
+    return "other"
 
 def parse_bank():
     text = open(BANK, encoding="utf-8").read()
@@ -24,7 +33,8 @@ def parse_bank():
                 break
             if "," in line and len(line) < 400 and "[" not in line:
                 kws += [k.strip().lower() for k in line.split(",") if k.strip()]
-        lanes.append({"lane": name, "desc": desc, "price": price, "keywords": kws[:20]})
+        lanes.append({"lane": name, "desc": desc, "price": price, "keywords": kws[:20],
+                      "added": m.group(4), "category": lane_category(name, desc)})
     return lanes
 
 def main():
@@ -33,11 +43,21 @@ def main():
     state = json.load(open(STATE))
     used = {u["lane"].lower() for u in state.get("used_lanes", [])
             if (today - datetime.date.fromisoformat(u["date"])).days < COOLDOWN_DAYS}
-    trend_text = " ".join(trends.get("google_trends_us", []) + trends.get("reddit_etsy_sellers", [])).lower()
+    trend_text = " ".join(trends.get("google_trends_us", []) + trends.get("reddit_etsy_sellers", [])
+                          + trends.get("news_digital_templates", []) + trends.get("news_printable_planner", [])
+                          + trends.get("news_canva_creators", [])).lower()
     seasonal_kws = [k for ev in trends.get("seasonal_next_60d", []) for k in ev["keywords"]]
+    lanes = parse_bank()
+    last_cat = None
+    if state.get("used_lanes"):
+        last_pick = state["used_lanes"][-1]["lane"].lower()
+        for l in lanes:
+            if l["lane"].lower() == last_pick:
+                last_cat = l["category"]
+                break
 
     scored = []
-    for lane in parse_bank():
+    for lane in lanes:
         if lane["lane"].lower() in used:
             continue
         score, why = 0, []
@@ -51,6 +71,17 @@ def main():
         if overlap:
             score += min(overlap, 4)
             why.append(f"trend-overlap:{overlap}")
+        if lane.get("added"):
+            try:
+                age = (today - datetime.date.fromisoformat(lane["added"])).days
+                if 0 <= age <= 14:
+                    score += 2
+                    why.append(f"fresh:{age}d")
+            except ValueError:
+                pass
+        if last_cat and lane["category"] == last_cat and lane["category"] != "other":
+            score -= 2
+            why.append("same-category-penalty")
         if 7 <= lane["price"] <= 19:
             score += 1
         scored.append((score, lane, why))
