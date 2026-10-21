@@ -8,7 +8,8 @@ STATE = os.path.join(ROOT, "state", "state.json")
 OUT = os.path.join(ROOT, "daily")
 COOLDOWN_DAYS = 30
 
-LANE_RE = re.compile(r"^##\s+\d+\.\s+(.+?)\s+—\s+(.+?)\s+\(\$(\d+)\)(?:\s+—\s+NEW\s+(\d{4}-\d{2}-\d{2}))?", re.M)
+HEAD_RE = re.compile(r"^##\s+\d+\.\s+(.+?)\s*$", re.M)
+CAT_PRICE_KEY = {"thumbnail": "thumbnail_pack"}
 
 def lane_category(name, desc):
     t = (name + " " + desc).lower()
@@ -21,9 +22,27 @@ def lane_category(name, desc):
 
 def parse_bank():
     text = open(BANK, encoding="utf-8").read()
+    rules = {}
+    try:
+        rules = json.load(open(os.path.join(ROOT, "config", "pricing-rules.json"))).get("lane_prices", {})
+    except Exception:
+        pass
     lanes = []
-    for m in LANE_RE.finditer(text):
-        name, desc, price = m.group(1).strip(), m.group(2).strip(), int(m.group(3))
+    for m in HEAD_RE.finditer(text):
+        raw = m.group(1).strip()
+        price_m = re.search(r"\(\$(\d+)\)", raw)
+        price = int(price_m.group(1)) if price_m else None
+        added_m = re.search(r"\bNEW\s+(\d{4}-\d{2}-\d{2})", raw)
+        added = added_m.group(1) if added_m else None
+        head = re.sub(r"\(\$\d+\)", "", raw)
+        head = re.sub(r"\s*[—–]\s*NEW\s+\d{4}-\d{2}-\d{2}\s*$", "", head)
+        head = re.sub(r"\s*[—–]\s*(?:refreshed|updated).*$", "", head, flags=re.I)
+        head = head.strip()
+        if re.search(r"[—–]", head):
+            name, desc = re.split(r"\s*[—–]\s*", head, maxsplit=1)
+        else:
+            name, desc = head, head
+        name, desc = name.strip(), desc.strip()
         # keywords = comma lines right after the header block
         start = m.end()
         seg = text[start:start + 4000]
@@ -33,8 +52,11 @@ def parse_bank():
                 break
             if "," in line and len(line) < 400 and "[" not in line:
                 kws += [k.strip().lower() for k in line.split(",") if k.strip()]
+        cat = lane_category(name, desc)
+        if price is None:
+            price = rules.get(CAT_PRICE_KEY.get(cat, cat), 12)
         lanes.append({"lane": name, "desc": desc, "price": price, "keywords": kws[:20],
-                      "added": m.group(4), "category": lane_category(name, desc)})
+                      "added": added, "category": cat})
     return lanes
 
 def main():
