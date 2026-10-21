@@ -12,7 +12,13 @@ def slug(s):
 def main():
     today = datetime.date.today().isoformat()
     idea = json.load(open(os.path.join(OUT, "product-idea.json")))
-    kws = idea["keywords"][:15]
+    if not idea.get("lane"):
+        # Bank genuinely empty (e.g. every lane inside the 30-day cooldown):
+        # succeed with nothing to publish instead of crashing the daily run.
+        print(json.dumps({"skipped": "bank-empty",
+                          "reason": "no eligible lane - all lanes in 30-day cooldown"}))
+        return
+    kws = (idea.get("keywords") or [])[:15]
     primary = kws[0] if kws else idea["lane"].lower()
     lane, desc, price = idea["lane"], idea["desc"], idea["price_usd"]
 
