@@ -1,5 +1,5 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "google_trends_us": [
   "_err:HTTPError"
  ],
@@ -17,28 +17,28 @@
   "36-year-old mom: how i built an etsy side hustle bringing in $10,000 a month in passive income 'doing something i love' - cnbc",
   "how to list and sell your canva templates on etsy in 8 steps - makeuseof",
   "how i earned $3,500 on etsy with ai tools like chatgpt, claude, and midjourney - vocal",
-  "printify shows creators how to sell art on etsy in 2026 - the national law review",
   "etsy creativity standards update june 10, 2025: crack down on 3d printing, digital items, generic supplies &amp; more - value added resource",
+  "printify shows creators how to sell art on etsy in 2026 - the national law review",
   "3 etsy sellers share the strategy that helped them sell more products in less time - business insider",
-  "meet sandra wills - bold journey magazine",
-  "ai-generated junk is flooding etsy - the atlantic"
+  "ai-generated junk is flooding etsy - the atlantic",
+  "meet sandra wills - bold journey magazine"
  ],
  "news_printable_planner": [
   "google news",
   "help shape the 2027-28 pwcs school calendar - prince william county public schools",
   "mark your calendar: 2026-27 academic calendar approved; 2027-28 drafted - leander isd",
-  "2027 motogp\u2122 calendar revealed - motogp.com",
   "board adopts 2026-2027 calendar; amends current calendar - pine bush central school district",
   "school system publishes 2026-2027 school calendar - https://newbritainprogressive.com/",
   "farmers\u2019 almanac announces 2027 print edition, marking its 210th edition - farmers' almanac",
   "nnps proposed calendar for 2026-2027 - newport news public schools",
-  "birmingham city schools calendar 2026-2027: key dates + holidays - bham now",
+  "mountain brook schools calendar 2026-2027: key dates + holidays - bham now",
   "arlington isd approves 2026-27 school year calendar. - fort worth report",
   "district releases 2026-27 calendar - the first bell",
   "free printable calendar of everything new happening in disney world - disney food blog",
   "cps unveils calendar proposals for 2026-27 and 2027-28 school years - wttw news",
   "2026 fall tv schedule, release dates: abc, cbs, fox, nbc premieres calendar - tvline",
-  "bcps announces school calendars have been approved - broward county public schools"
+  "bcps announces school calendars have been approved - broward county public schools",
+  "plano isd set to adopt 2027-28 academic calendar in march - community impact newspaper"
  ],
  "news_canva_creators": [
   "google news",
@@ -61,7 +61,7 @@
   {
    "event": "Halloween",
    "date": "2026-10-31",
-   "in_days": 9,
+   "in_days": 8,
    "keywords": [
     "halloween",
     "spooky",
@@ -71,7 +71,7 @@
   {
    "event": "Diwali",
    "date": "2026-11-08",
-   "in_days": 17,
+   "in_days": 16,
    "keywords": [
     "diwali",
     "festival of lights"
@@ -80,7 +80,7 @@
   {
    "event": "Thanksgiving",
    "date": "2026-11-26",
-   "in_days": 35,
+   "in_days": 34,
    "keywords": [
     "thanksgiving",
     "fall",
@@ -91,7 +91,7 @@
   {
    "event": "Black Friday / Cyber Monday",
    "date": "2026-11-27",
-   "in_days": 36,
+   "in_days": 35,
    "keywords": [
     "black friday",
     "cyber monday",
