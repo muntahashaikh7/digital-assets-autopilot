@@ -1,5 +1,5 @@
 {
- "date": "2026-10-25",
+ "date": "2026-10-26",
  "google_trends_us": [
   "_err:HTTPError"
  ],
@@ -9,15 +9,15 @@
  "news_digital_templates": [
   "google news",
   "printify publishes beginner\u2019s guide to selling canva templates on etsy - detroit free press",
-  "the calm way to start selling digital products across platforms - datadriveninvestor",
   "digital products to sell online: 10 ideas that pay off - qz.com",
+  "the calm way to start selling digital products across platforms - datadriveninvestor",
   "how to sell digital products online in south asia - worldfirst",
   "what to sell on etsy right now: 15 ideas that work - qz.com",
   "i made $34,400 this year selling digital products on etsy. i only spend an hour a month on it \u2013 here's how. - business insider",
   "36-year-old\u2019s etsy side hustle brings in $220,000 a year\u2014and costs under $40 to start: \u2018you really can make a very good living\u2019 - cnbc",
   "how to list and sell your canva templates on etsy in 8 steps - makeuseof",
-  "etsy creativity standards update june 10, 2025: crack down on 3d printing, digital items, generic supplies &amp; more - value added resource",
   "how i earned $3,500 on etsy with ai tools like chatgpt, claude, and midjourney - vocal",
+  "etsy creativity standards update june 10, 2025: crack down on 3d printing, digital items, generic supplies &amp; more - value added resource",
   "where to sell digital products: 14 best platforms 2026 - fello ai",
   "printify shows creators how to sell art on etsy in 2026 - the national law review",
   "36-year-old mom: how i built an etsy side hustle bringing in $10,000 a month in passive income 'doing something i love' - cnbc",
@@ -32,8 +32,8 @@
   "school system publishes 2026-2027 school calendar - https://newbritainprogressive.com/",
   "nnps proposed calendar for 2026-2027 - newport news public schools",
   "homewood city schools calendar 2026-2027: key dates + holidays - bham now",
-  "farmers\u2019 almanac announces 2027 print edition, marking its 210th edition - farmers' almanac",
   "arlington isd approves 2026-27 school year calendar. - fort worth report",
+  "farmers\u2019 almanac announces 2027 print edition, marking its 210th edition - farmers' almanac",
   "district releases 2026-27 calendar - the first bell",
   "free printable calendar of everything new happening in disney world - disney food blog",
   "cps unveils calendar proposals for 2026-27 and 2027-28 school years - wttw news",
@@ -43,25 +43,15 @@
  "news_canva_creators": [
   "google news",
   "how to make money with canva in 2026: 15 ways - shopify",
-  "how to make money with canva: 7 proven ways to earn online - hostinger",
-  "how notion, figma, and canva built the plg-influencer flywheel - contentgrip",
   "digital products to sell online: 10 ideas that pay off - qz.com",
-  "could i make six figures from my couch? influencers said yes \u2013 so i tried - the guardian",
   "how to make money on canva \u2014 5 methods - forbes",
-  "how people are making money on canva and turning their graphic-design side hustles into full-time gigs - business insider",
-  "a passive-income side hustle you can do from your couch\u2014the demand is 'definitely going to grow': how to get started - cnbc",
-  "can you sell your canva-made designs? here's what you need to know - makeuseof",
-  "is canva pro worth it? what do g2 reviewers think - g2 learning hub",
-  "you can make a boatload of money with canva - datadriveninvestor",
-  "i made $1.4 million selling canva templates working 10-hour weeks - business insider",
-  "best logo makers for 2026: 8 free and paid tools - shopify",
-  "what are digital products? examples &amp; how to sell in 2026 - fello ai"
+  "how people are making money on canva and turning their graphic-design side hustles into full-time gigs - business insider"
  ],
  "seasonal_next_60d": [
   {
    "event": "Halloween",
    "date": "2026-10-31",
-   "in_days": 6,
+   "in_days": 5,
    "keywords": [
     "halloween",
     "spooky",
@@ -71,7 +61,7 @@
   {
    "event": "Diwali",
    "date": "2026-11-08",
-   "in_days": 14,
+   "in_days": 13,
    "keywords": [
     "diwali",
     "festival of lights"
@@ -80,7 +70,7 @@
   {
    "event": "Thanksgiving",
    "date": "2026-11-26",
-   "in_days": 32,
+   "in_days": 31,
    "keywords": [
     "thanksgiving",
     "fall",
@@ -91,12 +81,23 @@
   {
    "event": "Black Friday / Cyber Monday",
    "date": "2026-11-27",
-   "in_days": 33,
+   "in_days": 32,
    "keywords": [
     "black friday",
     "cyber monday",
     "bfcm",
     "sale"
+   ]
+  },
+  {
+   "event": "Christmas",
+   "date": "2026-12-25",
+   "in_days": 60,
+   "keywords": [
+    "christmas",
+    "holiday",
+    "xmas",
+    "december"
    ]
   }
  ],
