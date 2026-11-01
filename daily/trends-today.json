@@ -1,5 +1,5 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "google_trends_us": [
   "_err:HTTPError"
  ],
@@ -16,11 +16,11 @@
   "what to sell on etsy right now: 15 ideas that work - qz.com",
   "36-year-old\u2019s etsy side hustle brings in $220,000 a year\u2014and costs under $40 to start: \u2018you really can make a very good living\u2019 - cnbc",
   "how to list and sell your canva templates on etsy in 8 steps - makeuseof",
-  "how i earned $3,500 on etsy with ai tools like chatgpt, claude, and midjourney - vocal",
   "etsy creativity standards update june 10, 2025: crack down on 3d printing, digital items, generic supplies &amp; more - value added resource",
+  "how i earned $3,500 on etsy with ai tools like chatgpt, claude, and midjourney - vocal",
   "where to sell digital products: 14 best platforms 2026 - fello ai",
   "printify shows creators how to sell art on etsy in 2026 - the national law review",
-  "meet sandra wills - bold journey magazine",
+  "printify releases guide to 32 etsy store ideas that work in 2026 - ein presswire",
   "3 etsy sellers share the strategy that helped them sell more products in less time - business insider"
  ],
  "news_printable_planner": [
@@ -49,29 +49,19 @@
   "could i make six figures from my couch? influencers said yes \u2013 so i tried - the guardian",
   "what are digital products? examples &amp; how to sell in 2026 - fello ai",
   "no time? no problem. 6 side hustles for ridiculously busy people - inc.com",
-  "canva ipo: why ai costs pushed the listing to 2027 - markets.com",
   "sell digital products online: a complete guide - hostinger",
   "how to make money on canva \u2014 5 methods - forbes",
   "how people are making money on canva and turning their graphic-design side hustles into full-time gigs - business insider",
   "is canva pro worth it? what do g2 reviewers think - g2 learning hub",
   "i made $1.4 million selling canva templates working 10-hour weeks - business insider",
-  "a passive-income side hustle you can do from your couch\u2014the demand is 'definitely going to grow': how to get started - cnbc"
+  "a passive-income side hustle you can do from your couch\u2014the demand is 'definitely going to grow': how to get started - cnbc",
+  "can you sell your canva-made designs? here's what you need to know - makeuseof"
  ],
  "seasonal_next_60d": [
   {
-   "event": "Halloween",
-   "date": "2026-10-31",
-   "in_days": 0,
-   "keywords": [
-    "halloween",
-    "spooky",
-    "october"
-   ]
-  },
-  {
    "event": "Diwali",
    "date": "2026-11-08",
-   "in_days": 8,
+   "in_days": 7,
    "keywords": [
     "diwali",
     "festival of lights"
@@ -80,7 +70,7 @@
   {
    "event": "Thanksgiving",
    "date": "2026-11-26",
-   "in_days": 26,
+   "in_days": 25,
    "keywords": [
     "thanksgiving",
     "fall",
@@ -91,7 +81,7 @@
   {
    "event": "Black Friday / Cyber Monday",
    "date": "2026-11-27",
-   "in_days": 27,
+   "in_days": 26,
    "keywords": [
     "black friday",
     "cyber monday",
@@ -102,7 +92,7 @@
   {
    "event": "Christmas",
    "date": "2026-12-25",
-   "in_days": 55,
+   "in_days": 54,
    "keywords": [
     "christmas",
     "holiday",
