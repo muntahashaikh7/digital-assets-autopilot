@@ -1,5 +1,5 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "google_trends_us": [
   "_err:HTTPError"
  ],
@@ -10,41 +10,41 @@
   "google news",
   "printify publishes beginner\u2019s guide to selling canva templates on etsy - detroit free press",
   "i made $34,400 this year selling digital products on etsy. i only spend an hour a month on it \u2013 here's how. - business insider",
-  "the calm way to start selling digital products across platforms - datadriveninvestor",
   "36-year-old\u2019s etsy side hustle brings in $220,000 a year\u2014and costs under $40 to start: \u2018you really can make a very good living\u2019 - cnbc",
+  "the calm way to start selling digital products across platforms - datadriveninvestor",
+  "guide to selling digital products on etsy from africa - worldfirst",
   "how to list and sell your canva templates on etsy in 8 steps - makeuseof",
   "i earn $9,500 a month selling printables i make on canva. here's how i built my 6-figure business. - business insider",
-  "how to sell digital products online in south asia - worldfirst",
   "how i earned $3,500 on etsy with ai tools like chatgpt, claude, and midjourney - vocal",
   "36-year-old mom: how i built an etsy side hustle bringing in $10,000 a month in passive income 'doing something i love' - cnbc",
-  "5 insider tips for buying crafting supplies on etsy from a top-rated seller - better homes &amp; gardens",
-  "15+ most profitable digital products to sell online (best unique ideas) - themeisle",
   "3 etsy sellers share the strategy that helped them sell more products in less time - business insider",
   "how to make money with canva in 2026: 15 ways - shopify",
-  "i've made $70,000 in revenue selling r\u00e9sum\u00e9 templates on etsy. i'm earning passive income using skills i already have. - business insider"
+  "i've made $70,000 in revenue selling r\u00e9sum\u00e9 templates on etsy. i'm earning passive income using skills i already have. - business insider",
+  "i earn up to $20,000 a month by vibe coding products to sell online. it's saving me weeks of time. - business insider"
  ],
  "news_printable_planner": [
   "google news",
-  "georgia guard, partners begin planning for agile spirit 2027 - national guard.mil",
-  "rtd invites public to feedback sessions starting oct. 27 about proposed january 2027 service changes - rtd-denver",
-  "free printable calendar of everything new happening in disney world - disney food blog",
   "i\u2019m extremely picky about planners. these are the best i\u2019ve tried - wired",
-  "french bridge days 2027: calendar and dates to book - pixidia",
   "the best planners we\u2019ve tested for work, school, and everything in between - the spruce",
-  "denver permitting department makes smaller cuts than 2026 in proposed budget - the business journals",
-  "fantasy basketball cheat sheet: all the names you need to know for your draft - espn",
-  "studio ghibli unveils new anime calendars and diary planners for 2027 - soranews24",
   "the 2027 farmers\u2019 almanac is here: celebrating our 210th edition\u2014now ad-free - farmers' almanac",
-  "new york city schools released next year\u2019s calendar. nobody will be happy. - epicenter nyc",
-  "this is the smart printing system google calendar is missing - fast company",
+  "checkers announce 2026-27 schedule - charlotte checkers hockey",
   "the old farmer\u2019s almanac\u2014growing strong, still publishing! - the old farmer\u2019s almanac",
-  "the major wedding-planning trends that will define 2027's chicest celebrations - who what wear"
+  "free printable calendar of everything new happening in disney world - disney food blog",
+  "loudoun county school board adopts 2026/2027 calendar - loudoun county public schools",
+  "new york city schools released next year\u2019s calendar. nobody will be happy. - epicenter nyc",
+  "shop now: the everygirl\u2019s 2026 and 2027 planners &amp; accessories are here! - the everygirl",
+  "writing is good for the soul. these planners are good for your sanity. - the new york times",
+  "georgia guard, partners begin planning for agile spirit 2027 - national guard.mil",
+  "swifties, take note: this new taylor swift calendar is already a no. 1 amazon bestseller - billboard",
+  "switch 2 sd card planner: 12 steps, 60 min [2026] - shattered.io",
+  "studio ghibli unveils new anime calendars and diary planners for 2027 - soranews24"
  ],
  "news_canva_creators": [
   "google news",
   "how to make money with canva in 2026: 15 ways - shopify",
   "how to make money with canva: 7 proven ways to earn online - hostinger",
   "digital products to sell online: 10 ideas that pay off - qz.com",
+  "how notion, figma, and canva built the plg-influencer flywheel - contentgrip",
   "how to make money on canva \u2014 5 methods - forbes",
   "how people are making money on canva and turning their graphic-design side hustles into full-time gigs - business insider"
  ],
@@ -52,7 +52,7 @@
   {
    "event": "Diwali",
    "date": "2026-11-08",
-   "in_days": 6,
+   "in_days": 5,
    "keywords": [
     "diwali",
     "festival of lights"
@@ -61,7 +61,7 @@
   {
    "event": "Thanksgiving",
    "date": "2026-11-26",
-   "in_days": 24,
+   "in_days": 23,
    "keywords": [
     "thanksgiving",
     "fall",
@@ -72,7 +72,7 @@
   {
    "event": "Black Friday / Cyber Monday",
    "date": "2026-11-27",
-   "in_days": 25,
+   "in_days": 24,
    "keywords": [
     "black friday",
     "cyber monday",
@@ -83,7 +83,7 @@
   {
    "event": "Christmas",
    "date": "2026-12-25",
-   "in_days": 53,
+   "in_days": 52,
    "keywords": [
     "christmas",
     "holiday",
@@ -94,7 +94,7 @@
   {
    "event": "New Year",
    "date": "2027-01-01",
-   "in_days": 60,
+   "in_days": 59,
    "keywords": [
     "new year",
     "2027",
